@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { HYDRATE } from "next-redux-wrapper";
-import { DEFAULT_SETTINGS } from '../config';
+import { DEFAULT_SETTINGS } from '../../config';
 
 const getComputedValues = () => {
   const rootStyle = window.getComputedStyle(document.body);

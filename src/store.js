@@ -6,11 +6,11 @@ import {persistStore} from 'redux-persist';
 import { FLUSH, PAUSE, PERSIST, PURGE, REGISTER, REHYDRATE } from 'redux-persist';
 
 // import theme reducers
-import settingsReducer from './settings/settingSlice';
-import layoutReducer from './layout/layoutSlice';
+import settingsReducer from './pages/settings/settingSlice';
+import layoutReducer from './pages/layout/layoutSlice';
 // import langReducer from './lang/langSlice';
 // import authReducer from './auth/authSlice';
-import menuReducer from './layout/nav/main-menu/menuSlice';
+import menuReducer from './pages/layout/nav/main-menu/menuSlice';
 // import notificationReducer from './layout/nav/notifications/notificationSlice';
 // import scrollspyReducer from './components/scrollspy/scrollspySlice';
 

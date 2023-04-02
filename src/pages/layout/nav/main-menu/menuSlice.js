@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { DEFAULT_SETTINGS } from '../../../config';
+import { DEFAULT_SETTINGS } from '../../../../config';
 
 export const BREAKPOINTS = { sm: 576, md: 768, lg: 992, xl: 1200, xxl: 1400 };
 

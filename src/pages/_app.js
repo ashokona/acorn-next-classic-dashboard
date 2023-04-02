@@ -6,7 +6,7 @@ import 'public/css/styles.css';
 import 'public/css/main.css';
 import 'public/font/CS-Interface/style.css'
 // import { wrapper } from "./store";
-import { store, persistedStore } from "./store";
+import { store, persistedStore } from "../store";
 import { PersistGate } from 'reduxjs-toolkit-persist/integration/react';
 import { Provider } from 'react-redux';
 
